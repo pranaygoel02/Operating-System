@@ -59,6 +59,11 @@ The cat command is a multi-purpose utility in the Linux system. It can be used t
   ```
   cat <file-name>
   ```
+    - It can also be used to merge contents of some file into one file.
+    ```
+    cat <file-1> <file-2> > <file-3>
+    ```
+    `>` is called funnel.
 - ### tac
 Same as `cat`. Prints content from last to first
 - ### rm (Remove)
